@@ -1,0 +1,51 @@
+.gitlabLogo {
+    max-width: 3em;
+    margin-bottom: 2px;
+}
+
+.issuesLogo {
+  max-width: 3em;
+  margin-bottom: 2px;
+}
+
+.testsLogo {
+  max-width: 3em;
+  margin-bottom: 2px;
+}
+
+.logoWrapper {
+  margin: auto;
+}
+
+.statsWrapper {
+  margin: 1em auto 1em auto;
+}
+
+.stats {
+  margin: auto 1em auto 1em
+}
+
+/* Tooltip text */
+.statsWrapper .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  /*left: 1%;*/
+
+  /* Position the tooltip text
+  z-index: 1;
+  bottom: 125%;
+  margin-left: -60px;
+*/
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.statsWrapper:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}

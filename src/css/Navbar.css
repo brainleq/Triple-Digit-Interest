@@ -1,0 +1,39 @@
+.navbar-collapse.collapse.in {
+  display: block!important;
+}
+
+body .scrollN, body .scrollN:hover {
+  color: white;
+  font-size: 1.3em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.nav-link:hover {
+  background-color: rgba(220,220,220,0.15);
+  color: #DD2C06 !important;
+}
+
+@media (max-width: 991px) {
+  #nav {
+    min-height: 56px !important;
+  }
+}
+
+.gradient-dark {
+  background: linear-gradient(#000, #0000);
+}
+
+body .black, body .black:hover {
+  color: black;
+  font-size: 1.3em;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media (min-width: 992px) {
+  #nav {
+    position: fixed;
+    height: 120px;
+    width: 100%;
+    transition: top 0.3s;
+  }
+}

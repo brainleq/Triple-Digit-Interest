@@ -1,0 +1,98 @@
+html, body, #root, #root>div{
+  height: 100%;
+  margin: 0;
+}
+
+.particles {
+  filter: blur(2.5px);
+  position: fixed;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index:-1;
+}
+
+
+body {background-size: cover;}
+
+.content-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 3;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.presentation-title{
+  background: none !important;
+}
+
+.info-box{
+  padding: 0 !important;
+}
+
+.topic-banner{
+  padding-top: 30px;
+}
+
+.outline{
+  outline-color: #DD2C06;
+  outline-style: solid;
+}
+
+.dark-back {
+  background-color: #202020;
+  min-height: 100%;
+}
+
+.dark{
+  background-color: #202020 !important;
+}
+
+.white-back {
+  background-color: #FFFFFF;
+  height: 100vh;
+  width: 100%;
+}
+
+.no-scroll {
+  position: fixed;
+}
+
+#topPad {
+  padding-top: 120px;
+}
+
+.formPad {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.extraTopSpace {
+  padding-top: 55px;
+}
+
+.white {
+  color: white;
+}
+
+.light-gray {
+  background-color: #D2D6DA;
+}
+
+.tilePad {
+  padding: 30px;
+}
+
+.teamPic {
+  max-width: 15em;
+  border-radius: 50%;
+}
+
+.marginSpace {
+  margin: 10px;
+}

@@ -1,0 +1,28 @@
+#letter-spacing {
+  letter-spacing: 10px;
+}
+
+.white {
+  color: white !important;
+}
+
+.red {
+  color: #DD2C06;
+}
+
+.raleWay {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.description{
+	font-size: 12px;
+}
+
+.outline{
+	border: 1px solid red;
+}
