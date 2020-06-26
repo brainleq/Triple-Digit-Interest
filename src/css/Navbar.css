@@ -9,8 +9,12 @@ body .scrollN, body .scrollN:hover {
 }
 
 .nav-link:hover {
-  background-color: rgba(220,220,220,0.15);
-  color: #DD2C06 !important;
+  background-color: rgba(220,220,220,0.25);
+  /* color: #DD2C06 !important; */
+}
+
+.nav-link {
+  font-size: 1.3rem;
 }
 
 @media (max-width: 991px) {

@@ -10,6 +10,7 @@ import "../css/Text.css"
 const redColor = "#DD2C06"
 const darkColor = "#202020"
 const whiteColor = "#FFF"
+{/*
 const theme = createMuiTheme({
   overrides: {
     MuiFormLabel: {
@@ -41,7 +42,7 @@ const theme = createMuiTheme({
     }
   }
 });
-
+*/}
 class Navbar extends Component {
   constructor(props) {
     super(props)
@@ -62,19 +63,19 @@ class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-expand-lg navbar-dark bg-dark raleWay">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light raleWay">
         <div className="container-fluid">
           <div className="navbar-header">
-            <a className="navbar-brand" href="/">T-D I</a>
+            <a className="navbar-brand" href="/">NAME??</a>
           </div>
-          <ul className="navbar-nav navbar-nav mr-auto">
-            <li><a className="nav-link" href="/">Discover</a></li>
-            <li><a className="nav-link" href="/">Map</a></li>
+          <ul className="navbar-nav mr-auto">
+            <li><a className="nav-link" href="/discover">Discover</a></li>
+            <li><a className="nav-link" href="/">Testing</a></li>
             <li><a className="nav-link" href="/">Lorem</a></li>
             <li><a className="nav-link" href="/">Ipsum</a></li>
             <li><a className="nav-link" href="/about">About</a></li>
           </ul>
-          <MuiThemeProvider theme={theme} >
+          {/*<MuiThemeProvider theme={theme} >
             <TextField
               id="outlined-margin-none"
               label="Search"
@@ -83,7 +84,7 @@ class Navbar extends Component {
               onChange={this.handleChange}
               onKeyDown={this.handleKey}
             />
-          </MuiThemeProvider>
+          </MuiThemeProvider>*/}
         </div>
       </nav>
     );
